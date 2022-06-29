@@ -1,0 +1,34 @@
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-item {
+    width: calc((100% - 90px) / 4);
+
+    &:not(:nth-child(4n)) {
+         margin-right: 30px;
+    }
+}
+
+.icon-container {
+    background-color: var(--icon-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+.section-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}

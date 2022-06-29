@@ -1,0 +1,50 @@
+
+.what-are-we-doing-section {
+    padding-top: 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.what-are-we-doing-list {
+    display: flex;
+}
+
+
+.what-are-we-doing-card {
+    flex-basis: calc((100% - 90px)/3);
+
+    &:not(:nth-child(3n)) {
+        margin-right: 30px;
+    }
+}
+
+.what-are-we-doing-thumb {
+    position: relative;
+}
+
+.what-are-we-doing-desk {
+    position: absolute;
+
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+
+    color: var(--text-accent);
+    background: rgba(47, 48, 58, 0.8);
+
+}
