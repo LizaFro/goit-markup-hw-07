@@ -337,7 +337,7 @@ img {
   padding-top: 0;
 }
 
-.title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -412,7 +412,7 @@ img {
   margin-right: 30px;
 }
 
-.team-section__description {
+.team-section__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
